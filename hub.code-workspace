@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "E:\\xampp\\htdocs\\sdp"
+		},
+		{
+			"path": "E:\\xampp\\htdocs\\nied\\jci"
+		},
+		{
+			"path": "E:\\xampp\\htdocs\\accounts"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
