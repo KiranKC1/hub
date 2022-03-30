@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c026441740e4139dd6235ff68e3fbd8e",
+    "content-hash": "9099fd45216d258142ef65e312dbf8dd",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -194,61 +194,6 @@
                 "tagging"
             ],
             "time": "2017-08-28T15:12:47+00:00"
-        },
-        {
-            "name": "desarrolla2/cache",
-            "version": "v2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desarrolla2/Cache.git",
-                "reference": "ebd1f7bfd1be605a9b5fbb0a4b25a948a31fe963"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/desarrolla2/Cache/zipball/ebd1f7bfd1be605a9b5fbb0a4b25a948a31fe963",
-                "reference": "ebd1f7bfd1be605a9b5fbb0a4b25a948a31fe963",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "predis/predis": "~1.0.0"
-            },
-            "suggest": {
-                "predis/predis": "Predis support"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Desarrolla2\\Cache\\": "src/",
-                    "Desarrolla2\\Test\\Cache\\": "test/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel González",
-                    "homepage": "http://desarrolla2.com/"
-                }
-            ],
-            "description": "Provides an cache interface for several adapters Apc, Apcu, File, Mongo, Memcache, Memcached, Mysql, Mongo, Redis is supported. New adapters is comming!",
-            "homepage": "https://github.com/desarrolla2/Cache/",
-            "keywords": [
-                "apc",
-                "apcu",
-                "cache",
-                "file",
-                "memcache",
-                "memcached",
-                "mongo",
-                "mysql",
-                "redis"
-            ],
-            "time": "2017-01-18T12:58:33+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -463,19 +408,20 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.6.4",
+            "version": "1.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "fbe3fe878f4fe69048bb8a52783a09802004f548"
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/fbe3fe878f4fe69048bb8a52783a09802004f548",
-                "reference": "fbe3fe878f4fe69048bb8a52783a09802004f548",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
                 "shasum": ""
             },
             "require": {
+                "ext-mbstring": "*",
                 "php": ">=5.3.0"
             },
             "require-dev": {
@@ -504,7 +450,11 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2017-11-14T20:44:03+00:00"
+            "support": {
+                "issues": "https://github.com/erusev/parsedown/issues",
+                "source": "https://github.com/erusev/parsedown/tree/1.7.x"
+            },
+            "time": "2019-12-30T22:54:17+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -4353,5 +4303,6 @@
     "platform": {
         "php": ">=7.0.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
